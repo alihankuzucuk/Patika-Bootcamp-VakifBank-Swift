@@ -23,5 +23,8 @@
         <li>Tuples</li>
         <li>Optionals</li>
     </ul>
+    <li>
+      <a href="../Week1/BasicOperators.playground/Contents.swift">BasicOperators</a>
+    </li>
   </ul>
 </details>
