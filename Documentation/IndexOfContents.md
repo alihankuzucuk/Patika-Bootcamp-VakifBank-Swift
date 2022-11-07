@@ -26,5 +26,28 @@
     <li>
       <a href="../Week1/BasicOperators.playground/Contents.swift">BasicOperators</a>
     </li>
+    <ul>
+        <li>Assignment Operator</li>
+        <li>Arithmetic Operators</li>
+        <li>Remainder Operator</li>
+        <li>Unary Minus Operator</li>
+        <li>Unary Plus Operator</li>
+        <li>Compound Assignment Operators</li>
+        <li>Comparison Operators</li>
+        <li>Ternary Conditional Operator</li>
+        <li>Nil-Coalescing Operator</li>
+        <li>Range Operators</li>
+        <ul>
+          <li>Closed Range Operator</li>
+          <li>Half-Open Range Operator</li>
+          <li>One-Sided Ranges</li>
+        </ul>
+        <li>Logical Operators</li>
+        <ul>
+          <li>Logical NOT (!a) Operator</li>
+          <li>Logical AND (a && b) Operator</li>
+          <li>Logical OR (a || b) Operator</li>
+        </ul>
+    </ul>
   </ul>
 </details>
