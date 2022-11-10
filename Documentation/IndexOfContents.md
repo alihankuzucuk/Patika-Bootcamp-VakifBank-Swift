@@ -68,5 +68,49 @@
       <li>Comparing Strings</li>
       <li>Prefix and Suffix Equality</li>
     </ul>
+    <li>
+      <a href="../Week1/CollectionTypes.playground/Contents.swift">Collection Types</a>
+    </li>
+    <ul>
+      <li>Documents</li>
+      <ul>
+        <li>
+          <a href="../Documents/Week1/CollectionTypes/collection_types-intro.png">Documents/Collection Types</a>
+        </li>
+        <li>
+          <a href="../Documents/Week1/CollectionTypes/collection_types-set-venn_diagram.png">Documents/Set Venn Diagram</a>
+        </li>
+        <li>
+          <a href="../Documents/Week1/CollectionTypes/collection_types-set-euler_diagram.png">Documents/Set Euler Diagram</a>
+        </li>
+      </ul>
+      <li>Array</li>
+      <ul>
+        <li>Creating an Empty Array</li>
+        <li>Creating an Array with a Default Value</li>
+        <li>Creating an Array by Adding Two Arrays Together</li>
+        <li>Creating an Array with an Array Literal</li>
+        <li>Accessing and Modifying an Array</li>
+        <li>Iterating Over an Array</li>
+        <li>Nested Array</li>
+      </ul>
+      <li>Set</li>
+      <ul>
+        <li>Creating and Initializing an Empty Set</li>
+        <li>Creating a Set with an Array Literal</li>
+        <li>Accessing and Modifying a Set</li>
+        <li>Iterating Over a Set</li>
+        <li>Performing Set Operations</li>
+        <li>Fundamental Set Operations</li>
+        <li>Set Membership and Equality</li>
+      </ul>
+      <li>Dictionary</li>
+      <ul>
+        <li>Creating an Empty Dictionary</li>
+        <li>Creating a Dictionary with a Dictionary Literal</li>
+        <li>Accessing and Modifying a Dictionary</li>
+        <li>Iterating Over a Dictionary</li>
+      </ul>
+    </ul>
   </ul>
 </details>
