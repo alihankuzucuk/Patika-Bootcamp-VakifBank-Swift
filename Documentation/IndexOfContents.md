@@ -112,5 +112,37 @@
         <li>Iterating Over a Dictionary</li>
       </ul>
     </ul>
+    <li>
+      <a href="../Week1/ControlFlow.playground/Contents.swift">Control Flow</a>
+    </li>
+    <ul>
+        <li>For-In Loops</li>
+        <ul>
+          <li>For-In Loops with Numeric Ranges</li>
+          <li>Stride(from:to:by:)</li>
+          <li>Stride(from:through:by:)</li>
+        </ul>
+        <li>While Loops</li>
+        <li>Conditional Statements</li>
+        <ul>
+          <li>If</li>
+          <li>Switch</li>
+          <ul>
+            <li>Compound Cases in Switch</li>
+            <li>Interval Matching in Switch</li>
+            <li>Tuples in Switch</li>
+            <li>Value Bindings in Switch</li>
+            <li>Where in Switch</li>
+          </ul>
+        </ul>
+        <li>Control Transfer Statements</li>
+        <ul>
+          <li>Continue</li>
+          <li>Break</li>
+          <li>Labeled Statements</li>
+          <li>Early Exit (Guard Let)</li>
+        </ul>
+        <li>Checking API Availability</li>
+      </ul>
   </ul>
 </details>
