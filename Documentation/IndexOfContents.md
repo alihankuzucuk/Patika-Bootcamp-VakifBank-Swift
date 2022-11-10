@@ -180,5 +180,27 @@
       <li>Initializing from a Raw Value</li>
       <li>Using Computed Property in Enumerations</li>
     </ul>
+    <li>
+      <a href="../Week1/StructuresAndClasses.playground/Contents.swift">Structures and Classes</a>
+    </li>
+    <ul>
+      <li>Documents</li>
+      <ul>
+        <li>
+          <a href="../Documents/Week1/StructuresAndClasses/shared_state-struct.png">Documents/Shared State Struct</a>
+        </li>
+        <li>
+          <a href="../Documents/Week1/StructuresAndClasses/shared_state-class.png">Documents/Shared State Class</a>
+        </li>
+      </ul>
+      <li>Comparing Structures and Classes</li>
+      <li>Definition Syntax</li>
+      <li>Structure and Class Instances</li>
+      <li>Accessing Properties</li>
+      <li>Memberwise Initializers for Structure Types</li>
+      <li>Structures and Enumerations Are Value Types</li>
+      <li>Classes Are Reference Types</li>
+      <li>Identity Operators</li>
+    </ul>
   </ul>
 </details>
