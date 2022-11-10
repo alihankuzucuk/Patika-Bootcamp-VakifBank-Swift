@@ -168,5 +168,17 @@
       <li>Function Types as Return Types</li>
       <li>Nested Functions</li>
     </ul>
+    <li>
+      <a href="../Week1/Enumerations.playground/Contents.swift">Enumerations</a>
+    </li>
+    <ul>
+      <li>Matching Enumeration Values with a Switch Statement</li>
+      <li>Iterating over Enumeration Cases</li>
+      <li>Associated Values</li>
+      <li>Raw Values</li>
+      <li>Implicitly Assigned Raw Values</li>
+      <li>Initializing from a Raw Value</li>
+      <li>Using Computed Property in Enumerations</li>
+    </ul>
   </ul>
 </details>
