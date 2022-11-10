@@ -151,6 +151,7 @@
       <li>Defining and Calling Functions</li>
       <li>Function Parameters and Return Values</li>
       <li>Functions Without Parameters</li>
+      <li>Functions without Return Values</li>
       <li>Functions With Multiple Parameters</li>
       <li>Functions with Multiple Return Values</li>
       <li>Optional Tuple Return Types</li>

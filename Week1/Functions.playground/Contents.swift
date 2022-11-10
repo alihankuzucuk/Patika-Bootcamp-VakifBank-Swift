@@ -31,6 +31,21 @@ func sumNumbers(number1: Int, number2: Int) -> Int {
 
 sumNumbers(number1: 5,number2: 3)
 
+// MARK: - Functions without Return Values
+func endingExecutionFuncWithParameterless(){
+    print("This text will be written")
+    
+    var checkNumber = 5
+    if checkNumber > 4 {
+        return
+        // The return statement ends execution of function
+    }
+    
+    print("This text will not be written")
+}
+
+endingExecutionFuncWithParameterless()
+
 // MARK: - Functions with Multiple Return Values
 // You can use a tuple type as the return type for a function to return multiple values as part of one compound return value
 func minMax(array: [Int]) -> (min: Int, max: Int) {
