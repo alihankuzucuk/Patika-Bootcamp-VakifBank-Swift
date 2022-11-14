@@ -232,5 +232,15 @@
         <li>Type Property Syntax</li>
       </ul>
     </ul>
+    <li>
+      <a href="../Week2/Methods.playground/Contents.swift">Methods</a>
+    </li>
+    <ul>
+      <li>Instance Methods</li>
+      <li>The self Property</li>
+      <li>Modifying Value Types from Within Instance Methods</li>
+      <li>Assigning to self Within a Mutating Method</li>
+      <li>Type Methods</li>
+    </ul>
   </ul>
 </details>
