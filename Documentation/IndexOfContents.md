@@ -242,5 +242,13 @@
       <li>Assigning to self Within a Mutating Method</li>
       <li>Type Methods</li>
     </ul>
+    <li>
+      <a href="../Week2/Subscripts.playground/Contents.swift">Subscripts</a>
+    </li>
+    <ul>
+      <li>Read-Only Subscript</li>
+      <li>Read-Write Subscript</li>
+      <li>Type Subscripts</li>
+    </ul>
   </ul>
 </details>
