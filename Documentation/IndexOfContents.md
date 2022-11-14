@@ -250,5 +250,21 @@
       <li>Read-Write Subscript</li>
       <li>Type Subscripts</li>
     </ul>
+    <li>
+      <a href="../Week2/Inheritance.playground/Contents.swift">Inheritance</a>
+    </li>
+    <ul>
+      <li>Defining a Base Class</li>
+      <li>Subclassing</li>
+      <li>Overriding</li>
+      <ul>
+        <li>Accessing Superclass Methods, Properties, and Subscripts</li>
+        <li>Overriding Methods</li>
+        <li>Overriding Properties</li>
+        <li>Overriding Property Getters and Setters</li>
+        <li>Overriding Property Observers</li>
+      </ul>
+      <li>Preventing Overrides</li>
+    </ul>
   </ul>
 </details>
