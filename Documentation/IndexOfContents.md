@@ -204,3 +204,33 @@
     </ul>
   </ul>
 </details>
+<details>
+  <summary>
+    <b>Week2</b>
+  </summary>
+  <ul>
+    <li>
+      <a href="../Week2/Properties.playground/Contents.swift">Properties</a>
+    </li>
+    <ul>
+      <li>Stored Properties</li>
+      <ul>
+        <li>Stored Properties of Constant Structure Instances</li>
+        <li>Lazy Stored Properties</li>
+      </ul>
+      <li>Computed Properties</li>
+      <ul>
+        <li>Read-Only Computed Properties</li>
+      </ul>
+      <li>Property Observers</li>
+      <li>Property Wrappers</li>
+      <li>Setting Initial Values for Wrapped Properties</li>
+      <li>Projecting a Value From a Property Wrapper</li>
+      <li>Global and Local Variables</li>
+      <li>Type Properties</li>
+      <ul>
+        <li>Type Property Syntax</li>
+      </ul>
+    </ul>
+  </ul>
+</details>
