@@ -13,6 +13,9 @@
 		C329DA09292966E60024A050 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C329DA07292966E60024A050 /* Main.storyboard */; };
 		C329DA0B292966E80024A050 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C329DA0A292966E80024A050 /* Assets.xcassets */; };
 		C329DA0E292966E80024A050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C329DA0C292966E80024A050 /* LaunchScreen.storyboard */; };
+		C329DA16292967F10024A050 /* PushWithIdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329DA15292967F10024A050 /* PushWithIdViewController.swift */; };
+		C329DA18292969C50024A050 /* PushWithSegueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329DA17292969C50024A050 /* PushWithSegueViewController.swift */; };
+		C329DA1A29296BBD0024A050 /* PresentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329DA1929296BBD0024A050 /* PresentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C329DA0A292966E80024A050 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C329DA0D292966E80024A050 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C329DA0F292966E80024A050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C329DA15292967F10024A050 /* PushWithIdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushWithIdViewController.swift; sourceTree = "<group>"; };
+		C329DA17292969C50024A050 /* PushWithSegueViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushWithSegueViewController.swift; sourceTree = "<group>"; };
+		C329DA1929296BBD0024A050 /* PresentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				C329DA01292966E60024A050 /* AppDelegate.swift */,
 				C329DA03292966E60024A050 /* SceneDelegate.swift */,
 				C329DA05292966E60024A050 /* ViewController.swift */,
+				C329DA15292967F10024A050 /* PushWithIdViewController.swift */,
+				C329DA17292969C50024A050 /* PushWithSegueViewController.swift */,
+				C329DA1929296BBD0024A050 /* PresentViewController.swift */,
 				C329DA07292966E60024A050 /* Main.storyboard */,
 				C329DA0A292966E80024A050 /* Assets.xcassets */,
 				C329DA0C292966E80024A050 /* LaunchScreen.storyboard */,
@@ -139,6 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				C329DA06292966E60024A050 /* ViewController.swift in Sources */,
+				C329DA16292967F10024A050 /* PushWithIdViewController.swift in Sources */,
+				C329DA1A29296BBD0024A050 /* PresentViewController.swift in Sources */,
+				C329DA18292969C50024A050 /* PushWithSegueViewController.swift in Sources */,
 				C329DA02292966E60024A050 /* AppDelegate.swift in Sources */,
 				C329DA04292966E60024A050 /* SceneDelegate.swift in Sources */,
 			);

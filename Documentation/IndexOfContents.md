@@ -280,41 +280,59 @@
       </li>
     </ul>
     <li>
-      <a href="../Week3/ListComponents/ListComponents/TableView/BasicTableViewController.swift">BasicTableViewController.swift</a>
-    </li>
-    <ul>
-      <li>Documents</li>
-      <ul>
-        <li>
-          <a href="../Documents/Week3/ListComponents/CreatingCustomTableViewCell">Documents/Creating Custom TableViewCell</a>
-        </li>
-      </ul>
-    </ul>
-    <ul>
-      <li>UISearchController</li>
-    </ul>
-    <li>
-      <a href="../Week3/ListComponents/ListComponents/TableView/CustomCellTableViewController.swift">CustomCellTableViewController.swift</a>
-    </li>
-    <ul>
-      <li>Documents</li>
-      <ul>
-        <li>
-          <a href="../Documents/Week3/ListComponents/CreatingTableViewCellXIB">Documents/Creating TableViewCell XIB</a>
-        </li>
-      </ul>
-      <li>tableView.register(UINib(nibName:, bundle:))</li>
-      <li>
-        <a href="../Week3/ListComponents/ListComponents/View/ItemTableViewCell.swift">ItemTableViewCell.swift</a>
-      </li>
-    </ul>
-    <li>
-      <a href="../Week3/ListComponents/ListComponents/CollectionView/CustomCollectionViewController.swift">CustomCollectionViewController.swift</a>
+      <a href="../Week3/ListComponents/ListComponents">ListComponents</a>
     </li>
     <ul>
       <li>
-        <a href="../Week3/ListComponents/ListComponents/View/MyCollectionViewCell.swift">MyCollectionViewCell.swift</a>
+        <a href="../Week3/ListComponents/ListComponents/TableView/BasicTableViewController.swift">BasicTableViewController.swift</a>
       </li>
+      <ul>
+        <li>Documents</li>
+        <ul>
+          <li>
+            <a href="../Documents/Week3/ListComponents/CreatingCustomTableViewCell">Documents/Creating Custom TableViewCell</a>
+          </li>
+        </ul>
+      </ul>
+      <ul>
+        <li>UISearchController</li>
+      </ul>
+      <li>
+        <a href="../Week3/ListComponents/ListComponents/TableView/CustomCellTableViewController.swift">CustomCellTableViewController.swift</a>
+      </li>
+      <ul>
+        <li>Documents</li>
+        <ul>
+          <li>
+            <a href="../Documents/Week3/ListComponents/CreatingTableViewCellXIB">Documents/Creating TableViewCell XIB</a>
+          </li>
+        </ul>
+        <li>tableView.register(UINib(nibName:, bundle:))</li>
+        <li>
+          <a href="../Week3/ListComponents/ListComponents/View/ItemTableViewCell.swift">ItemTableViewCell.swift</a>
+        </li>
+      </ul>
+      <li>
+        <a href="../Week3/ListComponents/ListComponents/CollectionView/CustomCollectionViewController.swift">CustomCollectionViewController.swift</a>
+      </li>
+      <ul>
+        <li>
+          <a href="../Week3/ListComponents/ListComponents/View/MyCollectionViewCell.swift">MyCollectionViewCell.swift</a>
+        </li>
+      </ul>
+    </ul>
+    <li>
+      <a href="../Week3/Navigation/Navigation">Navigation</a>
+    </li>
+    <ul>
+      <li>
+        <a href="../Week3/Navigation/Navigation/ViewController.swift">ViewController.swift</a>
+      </li>
+      <ul>
+        <li>storyboard?.instantiateViewController</li>
+        <li>navigationController?.pushViewController</li>
+        <li>present</li>
+      </ul>
     </ul>
   </ul>
 </details>
