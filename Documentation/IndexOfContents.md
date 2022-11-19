@@ -278,6 +278,9 @@
       <li>
         <a href="../Documents/Week3/ios-lifecycle.png">Documents/iOS LifeCycle</a>
       </li>
+      <li>
+        <a href="../Documents/Week3/ListComponents/CreatingCustomTableViewCell">Documents/Creating Custom TableViewCell</a>
+      </li>
     </ul>
   </ul>
 </details>
