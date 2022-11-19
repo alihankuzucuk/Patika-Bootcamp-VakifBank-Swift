@@ -283,15 +283,15 @@
       <a href="../Week3/ListComponents/ListComponents/TableView/BasicTableViewController.swift">BasicTableViewController.swift</a>
     </li>
     <ul>
-      <li>UISearchController</li>
-    </ul>
-    <ul>
       <li>Documents</li>
       <ul>
         <li>
           <a href="../Documents/Week3/ListComponents/CreatingCustomTableViewCell">Documents/Creating Custom TableViewCell</a>
         </li>
       </ul>
+    </ul>
+    <ul>
+      <li>UISearchController</li>
     </ul>
     <li>
       <a href="../Week3/ListComponents/ListComponents/TableView/CustomCellTableViewController.swift">CustomCellTableViewController.swift</a>
