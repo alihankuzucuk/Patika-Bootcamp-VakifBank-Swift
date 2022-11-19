@@ -15,6 +15,9 @@
 		C329D9DC292946850024A050 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C329D9DA292946850024A050 /* LaunchScreen.storyboard */; };
 		C329D9E5292947300024A050 /* BasicTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329D9E4292947300024A050 /* BasicTableViewController.swift */; };
 		C329D9E82929482F0024A050 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329D9E72929482F0024A050 /* ItemModel.swift */; };
+		C329D9EA29294DFC0024A050 /* CustomCellTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329D9E929294DFC0024A050 /* CustomCellTableViewController.swift */; };
+		C329D9EE29294F520024A050 /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C329D9EC29294F520024A050 /* ItemTableViewCell.swift */; };
+		C329D9EF29294F520024A050 /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C329D9ED29294F520024A050 /* ItemTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		C329D9DD292946850024A050 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C329D9E4292947300024A050 /* BasicTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicTableViewController.swift; sourceTree = "<group>"; };
 		C329D9E72929482F0024A050 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		C329D9E929294DFC0024A050 /* CustomCellTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewController.swift; sourceTree = "<group>"; };
+		C329D9EC29294F520024A050 /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		C329D9ED29294F520024A050 /* ItemTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 		C329D9CE292946840024A050 /* ListComponents */ = {
 			isa = PBXGroup;
 			children = (
+				C329D9EB29294F160024A050 /* View */,
 				C329D9E6292948030024A050 /* Model */,
 				C329D9E3292947040024A050 /* TableView */,
 				C329D9CF292946840024A050 /* AppDelegate.swift */,
@@ -77,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				C329D9E4292947300024A050 /* BasicTableViewController.swift */,
+				C329D9E929294DFC0024A050 /* CustomCellTableViewController.swift */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -87,6 +95,15 @@
 				C329D9E72929482F0024A050 /* ItemModel.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		C329D9EB29294F160024A050 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C329D9EC29294F520024A050 /* ItemTableViewCell.swift */,
+				C329D9ED29294F520024A050 /* ItemTableViewCell.xib */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -147,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C329D9EF29294F520024A050 /* ItemTableViewCell.xib in Resources */,
 				C329D9DC292946850024A050 /* LaunchScreen.storyboard in Resources */,
 				C329D9D9292946850024A050 /* Assets.xcassets in Resources */,
 				C329D9D7292946840024A050 /* Main.storyboard in Resources */,
@@ -164,6 +182,8 @@
 				C329D9D4292946840024A050 /* ViewController.swift in Sources */,
 				C329D9D0292946840024A050 /* AppDelegate.swift in Sources */,
 				C329D9E5292947300024A050 /* BasicTableViewController.swift in Sources */,
+				C329D9EA29294DFC0024A050 /* CustomCellTableViewController.swift in Sources */,
+				C329D9EE29294F520024A050 /* ItemTableViewCell.swift in Sources */,
 				C329D9D2292946840024A050 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

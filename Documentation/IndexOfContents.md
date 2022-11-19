@@ -278,9 +278,29 @@
       <li>
         <a href="../Documents/Week3/ios-lifecycle.png">Documents/iOS LifeCycle</a>
       </li>
-      <li>
-        <a href="../Documents/Week3/ListComponents/CreatingCustomTableViewCell">Documents/Creating Custom TableViewCell</a>
-      </li>
+    </ul>
+    <li>
+      <a href="../Week3/ListComponents/ListComponents/TableView/BasicTableViewController.swift">BasicTableViewController.swift</a>
+    </li>
+    <ul>
+      <li>Documents</li>
+      <ul>
+        <li>
+          <a href="../Documents/Week3/ListComponents/CreatingCustomTableViewCell">Documents/Creating Custom TableViewCell</a>
+        </li>
+      </ul>
+    </ul>
+    <li>
+      <a href="../Week3/ListComponents/ListComponents/TableView/CustomCellTableViewController.swift">CustomCellTableViewController.swift</a>
+    </li>
+    <ul>
+      <li>Documents</li>
+      <ul>
+        <li>
+          <a href="../Documents/Week3/ListComponents/CreatingTableViewCellXIB">Documents/Creating TableViewCell XIB</a>
+        </li>
+      </ul>
+      <li>tableView.register(UINib(nibName:, bundle:))</li>
     </ul>
   </ul>
 </details>
