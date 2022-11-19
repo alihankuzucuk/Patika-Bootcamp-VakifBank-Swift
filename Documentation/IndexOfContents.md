@@ -301,6 +301,17 @@
         </li>
       </ul>
       <li>tableView.register(UINib(nibName:, bundle:))</li>
+      <li>
+        <a href="../Week3/ListComponents/ListComponents/View/ItemTableViewCell.swift">ItemTableViewCell.swift</a>
+      </li>
+    </ul>
+    <li>
+      <a href="../Week3/ListComponents/ListComponents/CollectionView/CustomCollectionViewController.swift">CustomCollectionViewController.swift</a>
+    </li>
+    <ul>
+      <li>
+        <a href="../Week3/ListComponents/ListComponents/View/MyCollectionViewCell.swift">MyCollectionViewCell.swift</a>
+      </li>
     </ul>
   </ul>
 </details>
