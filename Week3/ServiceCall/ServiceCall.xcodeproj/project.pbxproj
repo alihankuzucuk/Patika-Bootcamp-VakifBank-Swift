@@ -13,6 +13,9 @@
 		C332E36B292A95D600938B23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C332E369292A95D600938B23 /* Main.storyboard */; };
 		C332E36D292A95D800938B23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C332E36C292A95D800938B23 /* Assets.xcassets */; };
 		C332E370292A95D800938B23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C332E36E292A95D800938B23 /* LaunchScreen.storyboard */; };
+		C332E379292A964600938B23 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332E378292A964600938B23 /* Client.swift */; };
+		C332E37B292A9BC800938B23 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332E37A292A9BC800938B23 /* BaseResponse.swift */; };
+		C332E37E292A9D4700938B23 /* SpellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C332E37D292A9D4700938B23 /* SpellModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		C332E36C292A95D800938B23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C332E36F292A95D800938B23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C332E371292A95D800938B23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C332E378292A964600938B23 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		C332E37A292A9BC800938B23 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		C332E37D292A9D4700938B23 /* SpellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,8 @@
 		C332E362292A95D600938B23 /* ServiceCall */ = {
 			isa = PBXGroup;
 			children = (
+				C332E37C292A9D3000938B23 /* Model */,
+				C332E377292A963A00938B23 /* Service */,
 				C332E363292A95D600938B23 /* AppDelegate.swift */,
 				C332E365292A95D600938B23 /* SceneDelegate.swift */,
 				C332E367292A95D600938B23 /* ViewController.swift */,
@@ -65,6 +73,23 @@
 				C332E371292A95D800938B23 /* Info.plist */,
 			);
 			path = ServiceCall;
+			sourceTree = "<group>";
+		};
+		C332E377292A963A00938B23 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C332E378292A964600938B23 /* Client.swift */,
+				C332E37A292A9BC800938B23 /* BaseResponse.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		C332E37C292A9D3000938B23 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C332E37D292A9D4700938B23 /* SpellModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +163,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C332E37B292A9BC800938B23 /* BaseResponse.swift in Sources */,
 				C332E368292A95D600938B23 /* ViewController.swift in Sources */,
+				C332E37E292A9D4700938B23 /* SpellModel.swift in Sources */,
 				C332E364292A95D600938B23 /* AppDelegate.swift in Sources */,
+				C332E379292A964600938B23 /* Client.swift in Sources */,
 				C332E366292A95D600938B23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

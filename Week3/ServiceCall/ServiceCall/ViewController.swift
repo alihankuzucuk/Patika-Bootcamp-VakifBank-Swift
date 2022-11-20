@@ -11,7 +11,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        Client.getSpells { spells, error in
+            guard let firstSpell = spells?[0] else { return }
+            print(firstSpell)
+        }
     }
 
 

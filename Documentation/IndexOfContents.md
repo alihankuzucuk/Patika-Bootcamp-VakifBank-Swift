@@ -334,5 +334,18 @@
         <li>present</li>
       </ul>
     </ul>
+    <li>
+      <a href="../Week3/ServiceCall/ServiceCall">ServiceCall</a>
+    </li>
+    <ul>
+      <li>
+        <a href="../Week3/ServiceCall/ServiceCall/Service/Client.swift">Client.swift</a>
+      </li>
+      <ul>
+        <li>@discardableResult</li>
+        <li>ResponseType.Type</li>
+        <li>ResponseType.self</li>
+      </ul>
+    </ul>
   </ul>
 </details>
