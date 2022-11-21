@@ -51,4 +51,12 @@ extension MarketListViewController: UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        guard let detailVC = storyboard?.instantiateViewController(withIdentifier: "MarketDetailViewController") as? MarketDetailViewController,
+              let selectedMarket = markets?[indexPath.row]
+        else { return }
+        detailVC.selectedMarket = selectedMarket
+        navigationController?.pushViewController(detailVC, animated: true)
+    }
+    
 }

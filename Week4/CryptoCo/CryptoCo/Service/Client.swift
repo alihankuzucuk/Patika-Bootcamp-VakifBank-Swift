@@ -84,4 +84,14 @@ final class Client {
         }
     }
     
+    class func getMarketHistory(market: String, completion: @escaping ([HistoryModel]?, Error?) -> Void) {
+        taskForGETRequest(url: Endpoints.marketHistory(market).url, responseType: GetHistoryResponseModel.self) { response, error in
+            if let response = response {
+                completion(response.result, nil)
+            } else {
+                completion(nil, error)
+            }
+        }
+    }
+    
 }

@@ -26,6 +26,11 @@
 		C315F7FD292BF38E00BB0558 /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7FB292BF38E00BB0558 /* MarketTableViewCell.swift */; };
 		C315F7FE292BF38E00BB0558 /* MarketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C315F7FC292BF38E00BB0558 /* MarketTableViewCell.xib */; };
 		C315F800292BF77B00BB0558 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7FF292BF77B00BB0558 /* BaseViewController.swift */; };
+		C315F802292BF9E200BB0558 /* MarketDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F801292BF9E200BB0558 /* MarketDetailViewController.swift */; };
+		C315F804292BFD7100BB0558 /* GetHistoryResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F803292BFD7100BB0558 /* GetHistoryResponseModel.swift */; };
+		C315F806292BFE0600BB0558 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F805292BFE0600BB0558 /* HistoryModel.swift */; };
+		C315F809292C01F200BB0558 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F807292C01F200BB0558 /* HistoryTableViewCell.swift */; };
+		C315F80A292C01F200BB0558 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C315F808292C01F200BB0558 /* HistoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +54,11 @@
 		C315F7FB292BF38E00BB0558 /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
 		C315F7FC292BF38E00BB0558 /* MarketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketTableViewCell.xib; sourceTree = "<group>"; };
 		C315F7FF292BF77B00BB0558 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		C315F801292BF9E200BB0558 /* MarketDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDetailViewController.swift; sourceTree = "<group>"; };
+		C315F803292BFD7100BB0558 /* GetHistoryResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetHistoryResponseModel.swift; sourceTree = "<group>"; };
+		C315F805292BFE0600BB0558 /* HistoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryModel.swift; sourceTree = "<group>"; };
+		C315F807292C01F200BB0558 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		C315F808292C01F200BB0558 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +120,7 @@
 				C315F7E1292BE03700BB0558 /* CurrencyListViewController.swift */,
 				C315F7F5292BF0BB00BB0558 /* MarketListViewController.swift */,
 				C315F7FF292BF77B00BB0558 /* BaseViewController.swift */,
+				C315F801292BF9E200BB0558 /* MarketDetailViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -121,6 +132,8 @@
 				C315F7EF292BE64900BB0558 /* CurrencyTableViewCell.xib */,
 				C315F7FB292BF38E00BB0558 /* MarketTableViewCell.swift */,
 				C315F7FC292BF38E00BB0558 /* MarketTableViewCell.xib */,
+				C315F807292C01F200BB0558 /* HistoryTableViewCell.swift */,
+				C315F808292C01F200BB0558 /* HistoryTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -132,6 +145,8 @@
 				C315F7EA292BE31100BB0558 /* AssetModel.swift */,
 				C315F7F7292BF15900BB0558 /* GetMarketsResponseModel.swift */,
 				C315F7F9292BF19C00BB0558 /* MarketModel.swift */,
+				C315F803292BFD7100BB0558 /* GetHistoryResponseModel.swift */,
+				C315F805292BFE0600BB0558 /* HistoryModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +228,7 @@
 				C315F7FE292BF38E00BB0558 /* MarketTableViewCell.xib in Resources */,
 				C315F7D2292BDB4D00BB0558 /* LaunchScreen.storyboard in Resources */,
 				C315F7CF292BDB4D00BB0558 /* Assets.xcassets in Resources */,
+				C315F80A292C01F200BB0558 /* HistoryTableViewCell.xib in Resources */,
 				C315F7CD292BDB4C00BB0558 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -224,16 +240,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C315F806292BFE0600BB0558 /* HistoryModel.swift in Sources */,
 				C315F800292BF77B00BB0558 /* BaseViewController.swift in Sources */,
 				C315F7E7292BE21500BB0558 /* BaseResponse.swift in Sources */,
 				C315F7FA292BF19C00BB0558 /* MarketModel.swift in Sources */,
+				C315F804292BFD7100BB0558 /* GetHistoryResponseModel.swift in Sources */,
 				C315F7C6292BDB4C00BB0558 /* AppDelegate.swift in Sources */,
 				C315F7E2292BE03700BB0558 /* CurrencyListViewController.swift in Sources */,
 				C315F7F6292BF0BB00BB0558 /* MarketListViewController.swift in Sources */,
 				C315F7E5292BE0BE00BB0558 /* Client.swift in Sources */,
+				C315F809292C01F200BB0558 /* HistoryTableViewCell.swift in Sources */,
 				C315F7F8292BF15900BB0558 /* GetMarketsResponseModel.swift in Sources */,
 				C315F7F0292BE64900BB0558 /* CurrencyTableViewCell.swift in Sources */,
 				C315F7E9292BE2BA00BB0558 /* GetAssetsResponseModel.swift in Sources */,
+				C315F802292BF9E200BB0558 /* MarketDetailViewController.swift in Sources */,
 				C315F7EB292BE31100BB0558 /* AssetModel.swift in Sources */,
 				C315F7C8292BDB4C00BB0558 /* SceneDelegate.swift in Sources */,
 				C315F7FD292BF38E00BB0558 /* MarketTableViewCell.swift in Sources */,
