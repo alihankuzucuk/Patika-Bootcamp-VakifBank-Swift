@@ -15,7 +15,7 @@ final class MarketDetailViewController: BaseViewController {
             tableViewHistory.dataSource = self
             tableViewHistory.delegate = self
             tableViewHistory.register(UINib(nibName: "HistoryTableViewCell", bundle: nil), forCellReuseIdentifier: "HistoryCell")
-            tableViewHistory.estimatedRowHeight = UITableView.automaticDimension
+            tableViewHistory.estimatedRowHeight = UITableView.automaticDimension // It is needed for automatic dimension
         }
     }
     
@@ -56,6 +56,10 @@ extension MarketDetailViewController: UITableViewDelegate, UITableViewDataSource
         }
         cell.configureCell(model: model)
         return cell
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        UITableView.automaticDimension
     }
     
 }

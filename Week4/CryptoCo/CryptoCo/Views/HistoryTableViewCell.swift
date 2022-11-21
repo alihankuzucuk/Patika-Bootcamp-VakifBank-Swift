@@ -8,6 +8,20 @@
 import UIKit
 
 final class HistoryTableViewCell: UITableViewCell {
+    
+    /**
+     Views in HistoryTableViewCell are intertwined
+     We want HistoryTableViewCell to arrange it as much as it needs
+     When we want it to set it automatically;
+     1- We need to give automatic dimension
+     2- The constraints of our cell must be complete (from below, from above, from right and left)
+     
+     Consider that we don't constraint below. Labels will continue to grow but not cell
+     Why because it won't have a cell related constraint
+     
+     Visit the relevant folder to see the implementation stages
+     ../Documents/Week4/CryptoCo/SettingAutomaticDimension
+     */
 
     @IBOutlet private weak var lblPrice: UILabel!
     @IBOutlet private weak var lblQuantity: UILabel!
