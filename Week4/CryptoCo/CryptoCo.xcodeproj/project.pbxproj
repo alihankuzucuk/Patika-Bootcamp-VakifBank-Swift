@@ -19,6 +19,7 @@
 		C315F7EB292BE31100BB0558 /* AssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7EA292BE31100BB0558 /* AssetModel.swift */; };
 		C315F7F0292BE64900BB0558 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7EE292BE64900BB0558 /* CurrencyTableViewCell.swift */; };
 		C315F7F1292BE64A00BB0558 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C315F7EF292BE64900BB0558 /* CurrencyTableViewCell.xib */; };
+		C315F7F4292BEE8E00BB0558 /* MaterialActivityIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = C315F7F3292BEE8E00BB0558 /* MaterialActivityIndicator */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C315F7F4292BEE8E00BB0558 /* MaterialActivityIndicator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +143,9 @@
 			dependencies = (
 			);
 			name = CryptoCo;
+			packageProductDependencies = (
+				C315F7F3292BEE8E00BB0558 /* MaterialActivityIndicator */,
+			);
 			productName = CryptoCo;
 			productReference = C315F7C2292BDB4C00BB0558 /* CryptoCo.app */;
 			productType = "com.apple.product-type.application";
@@ -169,6 +174,9 @@
 				Base,
 			);
 			mainGroup = C315F7B9292BDB4C00BB0558;
+			packageReferences = (
+				C315F7F2292BEE8E00BB0558 /* XCRemoteSwiftPackageReference "MaterialActivityIndicator" */,
+			);
 			productRefGroup = C315F7C3292BDB4C00BB0558 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -422,6 +430,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C315F7F2292BEE8E00BB0558 /* XCRemoteSwiftPackageReference "MaterialActivityIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/nspavlo/MaterialActivityIndicator";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.7;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C315F7F3292BEE8E00BB0558 /* MaterialActivityIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C315F7F2292BEE8E00BB0558 /* XCRemoteSwiftPackageReference "MaterialActivityIndicator" */;
+			productName = MaterialActivityIndicator;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C315F7BA292BDB4C00BB0558 /* Project object */;
 }
