@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		C315F7C6292BDB4C00BB0558 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7C5292BDB4C00BB0558 /* AppDelegate.swift */; };
 		C315F7C8292BDB4C00BB0558 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7C7292BDB4C00BB0558 /* SceneDelegate.swift */; };
-		C315F7CA292BDB4C00BB0558 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7C9292BDB4C00BB0558 /* ViewController.swift */; };
 		C315F7CD292BDB4C00BB0558 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C315F7CB292BDB4C00BB0558 /* Main.storyboard */; };
 		C315F7CF292BDB4D00BB0558 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C315F7CE292BDB4D00BB0558 /* Assets.xcassets */; };
 		C315F7D2292BDB4D00BB0558 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C315F7D0292BDB4D00BB0558 /* LaunchScreen.storyboard */; };
+		C315F7E2292BE03700BB0558 /* CurrencyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7E1292BE03700BB0558 /* CurrencyListViewController.swift */; };
+		C315F7E5292BE0BE00BB0558 /* Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7E4292BE0BE00BB0558 /* Client.swift */; };
+		C315F7E7292BE21500BB0558 /* BaseResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7E6292BE21500BB0558 /* BaseResponse.swift */; };
+		C315F7E9292BE2BA00BB0558 /* GetAssetsResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7E8292BE2BA00BB0558 /* GetAssetsResponseModel.swift */; };
+		C315F7EB292BE31100BB0558 /* AssetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7EA292BE31100BB0558 /* AssetModel.swift */; };
+		C315F7F0292BE64900BB0558 /* CurrencyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7EE292BE64900BB0558 /* CurrencyTableViewCell.swift */; };
+		C315F7F1292BE64A00BB0558 /* CurrencyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C315F7EF292BE64900BB0558 /* CurrencyTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C315F7C2292BDB4C00BB0558 /* CryptoCo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoCo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C315F7C5292BDB4C00BB0558 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C315F7C7292BDB4C00BB0558 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C315F7C9292BDB4C00BB0558 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C315F7CC292BDB4C00BB0558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C315F7CE292BDB4D00BB0558 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C315F7D1292BDB4D00BB0558 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C315F7D3292BDB4D00BB0558 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C315F7E1292BE03700BB0558 /* CurrencyListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyListViewController.swift; sourceTree = "<group>"; };
+		C315F7E4292BE0BE00BB0558 /* Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Client.swift; sourceTree = "<group>"; };
+		C315F7E6292BE21500BB0558 /* BaseResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseResponse.swift; sourceTree = "<group>"; };
+		C315F7E8292BE2BA00BB0558 /* GetAssetsResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetAssetsResponseModel.swift; sourceTree = "<group>"; };
+		C315F7EA292BE31100BB0558 /* AssetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetModel.swift; sourceTree = "<group>"; };
+		C315F7EE292BE64900BB0558 /* CurrencyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTableViewCell.swift; sourceTree = "<group>"; };
+		C315F7EF292BE64900BB0558 /* CurrencyTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CurrencyTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,61 @@
 		C315F7C4292BDB4C00BB0558 /* CryptoCo */ = {
 			isa = PBXGroup;
 			children = (
-				C315F7C5292BDB4C00BB0558 /* AppDelegate.swift */,
-				C315F7C7292BDB4C00BB0558 /* SceneDelegate.swift */,
-				C315F7C9292BDB4C00BB0558 /* ViewController.swift */,
-				C315F7CB292BDB4C00BB0558 /* Main.storyboard */,
-				C315F7CE292BDB4D00BB0558 /* Assets.xcassets */,
-				C315F7D0292BDB4D00BB0558 /* LaunchScreen.storyboard */,
+				C315F7E3292BE08700BB0558 /* Service */,
+				C315F7DD292BDEC500BB0558 /* App */,
+				C315F7DE292BDECC00BB0558 /* Controllers */,
+				C315F7E0292BDEDD00BB0558 /* Models */,
+				C315F7DF292BDED800BB0558 /* Views */,
 				C315F7D3292BDB4D00BB0558 /* Info.plist */,
 			);
 			path = CryptoCo;
+			sourceTree = "<group>";
+		};
+		C315F7DD292BDEC500BB0558 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C315F7C5292BDB4C00BB0558 /* AppDelegate.swift */,
+				C315F7C7292BDB4C00BB0558 /* SceneDelegate.swift */,
+				C315F7CB292BDB4C00BB0558 /* Main.storyboard */,
+				C315F7CE292BDB4D00BB0558 /* Assets.xcassets */,
+				C315F7D0292BDB4D00BB0558 /* LaunchScreen.storyboard */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C315F7DE292BDECC00BB0558 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C315F7E1292BE03700BB0558 /* CurrencyListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C315F7DF292BDED800BB0558 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C315F7EE292BE64900BB0558 /* CurrencyTableViewCell.swift */,
+				C315F7EF292BE64900BB0558 /* CurrencyTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C315F7E0292BDEDD00BB0558 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C315F7E8292BE2BA00BB0558 /* GetAssetsResponseModel.swift */,
+				C315F7EA292BE31100BB0558 /* AssetModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C315F7E3292BE08700BB0558 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				C315F7E4292BE0BE00BB0558 /* Client.swift */,
+				C315F7E6292BE21500BB0558 /* BaseResponse.swift */,
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C315F7F1292BE64A00BB0558 /* CurrencyTableViewCell.xib in Resources */,
 				C315F7D2292BDB4D00BB0558 /* LaunchScreen.storyboard in Resources */,
 				C315F7CF292BDB4D00BB0558 /* Assets.xcassets in Resources */,
 				C315F7CD292BDB4C00BB0558 /* Main.storyboard in Resources */,
@@ -138,8 +197,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C315F7CA292BDB4C00BB0558 /* ViewController.swift in Sources */,
+				C315F7E7292BE21500BB0558 /* BaseResponse.swift in Sources */,
 				C315F7C6292BDB4C00BB0558 /* AppDelegate.swift in Sources */,
+				C315F7E2292BE03700BB0558 /* CurrencyListViewController.swift in Sources */,
+				C315F7E5292BE0BE00BB0558 /* Client.swift in Sources */,
+				C315F7F0292BE64900BB0558 /* CurrencyTableViewCell.swift in Sources */,
+				C315F7E9292BE2BA00BB0558 /* GetAssetsResponseModel.swift in Sources */,
+				C315F7EB292BE31100BB0558 /* AssetModel.swift in Sources */,
 				C315F7C8292BDB4C00BB0558 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
