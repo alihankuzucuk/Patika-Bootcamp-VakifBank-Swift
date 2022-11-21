@@ -25,6 +25,7 @@
 		C315F7FA292BF19C00BB0558 /* MarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7F9292BF19C00BB0558 /* MarketModel.swift */; };
 		C315F7FD292BF38E00BB0558 /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7FB292BF38E00BB0558 /* MarketTableViewCell.swift */; };
 		C315F7FE292BF38E00BB0558 /* MarketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C315F7FC292BF38E00BB0558 /* MarketTableViewCell.xib */; };
+		C315F800292BF77B00BB0558 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F7FF292BF77B00BB0558 /* BaseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,7 @@
 		C315F7F9292BF19C00BB0558 /* MarketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketModel.swift; sourceTree = "<group>"; };
 		C315F7FB292BF38E00BB0558 /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
 		C315F7FC292BF38E00BB0558 /* MarketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MarketTableViewCell.xib; sourceTree = "<group>"; };
+		C315F7FF292BF77B00BB0558 /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				C315F7E1292BE03700BB0558 /* CurrencyListViewController.swift */,
 				C315F7F5292BF0BB00BB0558 /* MarketListViewController.swift */,
+				C315F7FF292BF77B00BB0558 /* BaseViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -221,6 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C315F800292BF77B00BB0558 /* BaseViewController.swift in Sources */,
 				C315F7E7292BE21500BB0558 /* BaseResponse.swift in Sources */,
 				C315F7FA292BF19C00BB0558 /* MarketModel.swift in Sources */,
 				C315F7C6292BDB4C00BB0558 /* AppDelegate.swift in Sources */,

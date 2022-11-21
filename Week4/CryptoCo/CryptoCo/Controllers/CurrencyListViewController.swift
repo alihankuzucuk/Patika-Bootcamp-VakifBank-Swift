@@ -6,9 +6,8 @@
 //
 
 import UIKit
-import MaterialActivityIndicator
 
-final class CurrencyListViewController: UIViewController {
+final class CurrencyListViewController: BaseViewController {
 
     // MARK: - Outlets
     @IBOutlet private weak var tableViewAssets: UITableView!
@@ -20,13 +19,10 @@ final class CurrencyListViewController: UIViewController {
         }
     }
     
-    let indicator = MaterialActivityIndicatorView()
-    
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         configureTableView()
-        setupActivityIndicatorView()
         indicator.startAnimating()
         Client.getAssets { [weak self] assets, error in
             /**
@@ -43,17 +39,6 @@ final class CurrencyListViewController: UIViewController {
     private func configureTableView() {
         tableViewAssets.dataSource = self
         tableViewAssets.register(UINib(nibName: "CurrencyTableViewCell", bundle: nil), forCellReuseIdentifier: "CurrencyCell")
-    }
-    
-    private func setupActivityIndicatorView() {
-        view.addSubview(indicator)
-        setupActivityIndicatorViewConstraints()
-    }
-    
-    private func setupActivityIndicatorViewConstraints() {
-        indicator.translatesAutoresizingMaskIntoConstraints = false
-        indicator.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
-        indicator.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
 
 }

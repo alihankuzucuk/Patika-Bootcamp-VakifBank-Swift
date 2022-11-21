@@ -7,7 +7,7 @@
 
 import UIKit
 
-final class MarketListViewController: UIViewController {
+final class MarketListViewController: BaseViewController {
 
     @IBOutlet weak var tableViewMarkets: UITableView! {
         didSet {
@@ -25,9 +25,10 @@ final class MarketListViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        indicator.startAnimating()
         Client.getMarkets { [weak self] markets, error in
             guard let self = self else { return }
+            self.indicator.stopAnimating()
             self.markets = markets
         }
     }
