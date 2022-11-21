@@ -17,12 +17,12 @@ final class Client {
 
         var stringValue: String {
             switch self {
-            case .assets:
-                return Endpoints.base + "/getassets"
-            case .markets:
-                return Endpoints.base + "/getmarkets"
-            case .marketHistory(let marketId):
-                return Endpoints.base + "/getmarkethistory?market=\(marketId)"
+                case .assets:
+                    return Endpoints.base + "/getassets"
+                case .markets:
+                    return Endpoints.base + "/getmarkets"
+                case .marketHistory(let marketId):
+                    return Endpoints.base + "/getmarkethistory?market=\(marketId)"
             }
         }
 
@@ -66,6 +66,16 @@ final class Client {
     
     class func getAssets(completion: @escaping ([AssetModel]?, Error?) -> Void) {
         taskForGETRequest(url: Endpoints.assets.url, responseType: GetAssetsResponseModel.self) { response, error in
+            if let response = response {
+                completion(response.result, nil)
+            } else {
+                completion(nil, error)
+            }
+        }
+    }
+    
+    class func getMarkets(completion: @escaping ([MarketModel]?, Error?) -> Void) {
+        taskForGETRequest(url: Endpoints.markets.url, responseType: GetMarketsResponseModel.self) { response, error in
             if let response = response {
                 completion(response.result, nil)
             } else {

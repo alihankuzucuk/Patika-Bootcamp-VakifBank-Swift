@@ -11,18 +11,33 @@
         <!--Markets-->
         <scene sceneID="odC-JS-inb">
             <objects>
-                <viewController id="Cf3-x7-2wQ" sceneMemberID="viewController">
+                <viewController id="Cf3-x7-2wQ" customClass="MarketListViewController" customModule="CryptoCo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="4DW-hr-3gI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="yag-pK-Fld">
+                                <rect key="frame" x="0.0" y="59" width="393" height="710"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="Vc3-JC-pnR"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="yag-pK-Fld" firstAttribute="leading" secondItem="Vc3-JC-pnR" secondAttribute="leading" id="RDa-Ik-WLB"/>
+                            <constraint firstItem="Vc3-JC-pnR" firstAttribute="bottom" secondItem="yag-pK-Fld" secondAttribute="bottom" id="a1h-5l-OKr"/>
+                            <constraint firstItem="Vc3-JC-pnR" firstAttribute="trailing" secondItem="yag-pK-Fld" secondAttribute="trailing" id="aB4-5J-9H8"/>
+                            <constraint firstItem="yag-pK-Fld" firstAttribute="top" secondItem="Vc3-JC-pnR" secondAttribute="top" id="rtU-zC-Akq"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Markets" image="house.circle.fill" catalog="system" id="Ar9-e3-UQ1"/>
+                    <connections>
+                        <outlet property="tableViewMarkets" destination="yag-pK-Fld" id="drk-5c-kcT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="rdI-zQ-QtA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335" y="-252"/>
+            <point key="canvasLocation" x="-335" y="-220"/>
         </scene>
         <!--Currency-->
         <scene sceneID="3aL-Rt-aON">
@@ -53,7 +68,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0NU-2H-SU6" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-335" y="-860"/>
+            <point key="canvasLocation" x="-335" y="-873"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="Dkv-a8-7z0">
