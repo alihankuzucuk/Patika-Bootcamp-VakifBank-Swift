@@ -36,6 +36,20 @@ final class MarketDetailViewController: BaseViewController {
         Client.getMarketHistory(market: market.marketName) { [weak self] history, error in
             guard let self = self else { return }
             self.indicator.stopAnimating()
+            
+            if let error = error {
+                self.showAlertView(message: error.localizedDescription) {
+                    self.navigationController?.popViewController(animated: true)
+                }
+                return
+            }
+            if history?.isEmpty ?? true {
+                self.showAlertView(message: "No History") {
+                    self.navigationController?.popViewController(animated: true)
+                }
+                return
+            }
+            
             self.historyOrders = history
         }
     }

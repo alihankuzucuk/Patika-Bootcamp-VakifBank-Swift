@@ -31,6 +31,7 @@
 		C315F806292BFE0600BB0558 /* HistoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F805292BFE0600BB0558 /* HistoryModel.swift */; };
 		C315F809292C01F200BB0558 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C315F807292C01F200BB0558 /* HistoryTableViewCell.swift */; };
 		C315F80A292C01F200BB0558 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C315F808292C01F200BB0558 /* HistoryTableViewCell.xib */; };
+		C3227851292D03BE00BF6CDC /* SwiftAlertView in Frameworks */ = {isa = PBXBuildFile; productRef = C3227850292D03BE00BF6CDC /* SwiftAlertView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C3227851292D03BE00BF6CDC /* SwiftAlertView in Frameworks */,
 				C315F7F4292BEE8E00BB0558 /* MaterialActivityIndicator in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -178,6 +180,7 @@
 			name = CryptoCo;
 			packageProductDependencies = (
 				C315F7F3292BEE8E00BB0558 /* MaterialActivityIndicator */,
+				C3227850292D03BE00BF6CDC /* SwiftAlertView */,
 			);
 			productName = CryptoCo;
 			productReference = C315F7C2292BDB4C00BB0558 /* CryptoCo.app */;
@@ -209,6 +212,7 @@
 			mainGroup = C315F7B9292BDB4C00BB0558;
 			packageReferences = (
 				C315F7F2292BEE8E00BB0558 /* XCRemoteSwiftPackageReference "MaterialActivityIndicator" */,
+				C322784F292D03BE00BF6CDC /* XCRemoteSwiftPackageReference "SwiftAlertView" */,
 			);
 			productRefGroup = C315F7C3292BDB4C00BB0558 /* Products */;
 			projectDirPath = "";
@@ -484,6 +488,14 @@
 				minimumVersion = 0.0.7;
 			};
 		};
+		C322784F292D03BE00BF6CDC /* XCRemoteSwiftPackageReference "SwiftAlertView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/dinhquan/SwiftAlertView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -491,6 +503,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = C315F7F2292BEE8E00BB0558 /* XCRemoteSwiftPackageReference "MaterialActivityIndicator" */;
 			productName = MaterialActivityIndicator;
+		};
+		C3227850292D03BE00BF6CDC /* SwiftAlertView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C322784F292D03BE00BF6CDC /* XCRemoteSwiftPackageReference "SwiftAlertView" */;
+			productName = SwiftAlertView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
