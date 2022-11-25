@@ -349,3 +349,93 @@
     </ul>
   </ul>
 </details>
+<details>
+  <summary>
+    <b>Week4</b>
+  </summary>
+  <ul>
+    <li>
+      <a href="../Week4/CryptoCo/CryptoCo">CryptoCo</a>
+    </li>
+    <ul>
+      <li>
+        <a href="../Week4/CryptoCo/CryptoCo/App">App</a>
+      </li>
+      <li>
+        <a href="../Week4/CryptoCo/CryptoCo/Service">Service</a>
+      </li>
+      <ul>
+        <li>
+          <a href="../Week4/CryptoCo/CryptoCo/Service/Client.swift">Client.swift</a>
+        </li>
+        <ul>
+          <li>Endpoints Enum</li>
+          <li>Type Based GET Request Task Function</li>
+        </ul>
+      </ul>
+      <li>
+        <a href="../Week4/CryptoCo/CryptoCo/Controllers">Controllers</a>
+      </li>
+      <ul>
+        <li>
+          <a href="../Week4/CryptoCo/CryptoCo/Controllers/BaseViewController.swift">BaseViewController.swift</a>
+        </li>
+        <ul>
+          <li>MaterialActivityIndicator</li>
+          <li>SwiftAlertView</li>
+        </ul>
+        <li>
+          <a href="../Week4/CryptoCo/CryptoCo/Controllers/CurrencyListViewController.swift">CurrencyListViewController.swift</a>
+        </li>
+        <ul>
+          <li>Capture List</li>
+          <li>tableView.register(UINib(nibName:, bundle:), forCellReuseIdentifier:)</li>
+          <li>tableView.dequeueReusableCell(withIdentifier:, for:)</li>
+        </ul>
+        <li>
+          <a href="../Week4/CryptoCo/CryptoCo/Controllers/MarketDetailViewController.swift">MarketDetailViewController.swift</a>
+        </li>
+        <ul>
+          <li>tableView.register(UINib(nibName:, bundle:), forCellReuseIdentifier:)</li>
+          <li>tableView.dequeueReusableCell(withIdentifier:, for:)</li>
+          <li>tableView.estimatedRowHeight</li>
+          <li>navigationController?.popViewController</li>
+          <li>tableView(_ tableView:, heightForRowAt indexPath:)</li>
+        </ul>
+        <li>
+          <a href="../Week4/CryptoCo/CryptoCo/Controllers/MarketListViewController.swift">MarketListViewController.swift</a>
+        </li>
+        <ul>
+          <li>storyboard?.instantiateViewController(withIdentifier:)</li>
+          <li>navigationController?.pushViewController(viewController:, animated:)</li>
+          <li>tableView.register(UINib(nibName:, bundle:), forCellReuseIdentifier:)</li>
+          <li>tableView.dequeueReusableCell(withIdentifier:, for:)</li>
+        </ul>
+      </ul>
+      <li>
+        <a href="../Week4/CryptoCo/CryptoCo/Models">Models</a>
+      </li>
+      <ul>
+        <li>
+          <a href="../Week4/CryptoCo/CryptoCo/Models/GetHistoryResponseModel.swift">GetHistoryResponseModel.swift</a>
+        </li>
+        <ul>
+          <li>CodingKeys Enum</li>
+          <li>Decoder.container</li>
+          <li>values.decodeIfPresent</li>
+        </ul>
+      </ul>
+      <li>
+        <a href="../Week4/CryptoCo/CryptoCo/Views">Views</a>
+      </li>
+      <ul>
+        <li>
+          <a href="../Week4/CryptoCo/CryptoCo/Views/HistoryTableViewCell.swift">HistoryTableViewCell.swift</a>
+        </li>
+        <ul>
+          <li>XIB TableViewCell with AutomaticDimension</li>
+        </ul>
+      </ul>
+    </ul>
+  </ul>
+</details>
