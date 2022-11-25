@@ -266,6 +266,48 @@
       </ul>
       <li>Preventing Overrides</li>
     </ul>
+    <li>
+      <a href="../Week2/Initialization.playground/Contents.swift">Initialization</a>
+    </li>
+    <ul>
+      <li>Setting Initial Values for Stored Properties</li>
+      <ul>
+        <li>Initializers</li>
+        <li>Default Property Values</li>
+      </ul>
+      <li>Customizing Initialization</li>
+      <ul>
+        <li>Initialization Parameters</li>
+        <li>Parameter Names and Argument Labels</li>
+        <li>Initializer Parameters Without Argument Labels</li>
+        <li>Optional Property Types</li>
+        <li>Assigning Constant Properties During Initialization</li>
+      </ul>
+      <li>Default Initializers</li>
+      <ul>
+        <li>Memberwise Initializers for Structure Types</li>
+      </ul>
+      <li>Initializer Delegation for Value Types</li>
+      <li>Class Inheritance and Initialization</li>
+      <ul>
+        <li>Designated Initializers and Convenience Initializers</li>
+        <li>Syntax for Designated and Convenience Initializers</li>
+        <li>Initializer Delegation for Class Types</li>
+        <li>Two-Phase Initialization</li>
+        <li>Initializer Inheritance and Overriding</li>
+        <li>Automatic Initializer Inheritance</li>
+        <li>Designated and Convenience Initializers in Action</li>
+      </ul>
+      <li>Failable Initializers</li>
+      <ul>
+        <li>Failable Initializers for Enumerations</li>
+        <li>Failable Initializers for Enumerations with Raw Values</li>
+        <li>Propagation of Initialization Failure</li>
+        <li>Overriding a Failable Initializer</li>
+        <li>The init! Failable Initializer</li>
+      </ul>
+      <li>Required Initializers</li>
+    </ul>
   </ul>
 </details>
 <details>
