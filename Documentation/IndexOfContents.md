@@ -308,6 +308,20 @@
       </ul>
       <li>Required Initializers</li>
     </ul>
+    <li>
+      <a href="../Week2/ErrorHandling.playground/Contents.swift">ErrorHandling</a>
+    </li>
+    <ul>
+      <li>Representing and Throwing Errors</li>
+      <li>Handling Errors</li>
+      <ul>
+        <li>Propagating Errors Using Throwing Functions</li>
+        <li>Handling Errors Using Do-Catch</li>
+        <li>Converting Errors to Optional Values</li>
+        <li>Disabling Error Propagation</li>
+      </ul>
+      <li>Specifying Cleanup Actions</li>
+    </ul>
   </ul>
 </details>
 <details>
