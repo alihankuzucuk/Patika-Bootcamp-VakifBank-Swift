@@ -61,7 +61,9 @@ extension MovieListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("Item selected")
+        guard let movieDetailViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "MovieDetailViewController") as? MovieDetailViewController else { return }
+        movieDetailViewController.movieId = viewModel.getMovieId(at: indexPath.row)
+        present(movieDetailViewController, animated: true)
     }
     
 }

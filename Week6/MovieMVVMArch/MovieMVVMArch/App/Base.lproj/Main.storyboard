@@ -74,6 +74,56 @@
             </objects>
             <point key="canvasLocation" x="132" y="-27"/>
         </scene>
+        <!--Movie Detail View Controller-->
+        <scene sceneID="rqP-Z1-tug">
+            <objects>
+                <viewController storyboardIdentifier="MovieDetailViewController" id="u6a-I1-gnK" customClass="MovieDetailViewController" customModule="MovieMVVMArch" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6AU-ao-jJn">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="64" translatesAutoresizingMaskIntoConstraints="NO" id="YNw-lJ-ObZ">
+                                <rect key="frame" x="96.666666666666686" y="241.66666666666666" width="200" height="368.66666666666674"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PnJ-qF-x3f">
+                                        <rect key="frame" x="0.0" y="0.0" width="200" height="200"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="200" id="S2K-bP-MyC"/>
+                                            <constraint firstAttribute="width" constant="200" id="SDE-SG-eG7"/>
+                                        </constraints>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8He-r9-Zdd">
+                                        <rect key="frame" x="0.0" y="264" width="200" height="20.333333333333314"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EnT-pH-qbK">
+                                        <rect key="frame" x="0.0" y="348.33333333333337" width="200" height="20.333333333333314"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="O8a-vd-Qbp"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="YNw-lJ-ObZ" firstAttribute="centerX" secondItem="6AU-ao-jJn" secondAttribute="centerX" id="Eu9-CU-4bQ"/>
+                            <constraint firstItem="YNw-lJ-ObZ" firstAttribute="centerY" secondItem="6AU-ao-jJn" secondAttribute="centerY" id="Mt5-wF-Rbe"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imgVMovie" destination="PnJ-qF-x3f" id="Kp6-sm-d4s"/>
+                        <outlet property="lblMovieTagline" destination="EnT-pH-qbK" id="RE6-87-caL"/>
+                        <outlet property="lblMovieTitle" destination="8He-r9-Zdd" id="vOf-HI-pRX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jYx-BI-GzB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="979" y="-27"/>
+        </scene>
     </scenes>
     <resources>
         <systemColor name="systemBackgroundColor">
